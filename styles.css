@@ -1,11 +1,16 @@
 body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    max-width: 1200px;
+    margin: 0 auto;
 }
+
+/* .headerHero {
+    max-width: 1280px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+} */
 
 a {
     text-decoration: none;
@@ -21,13 +26,15 @@ header, .heroContent {
     display: flex;
     background-color: #1F2937;
     color: white;
-    flex: 1;
+    flex-grow: 1;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 header {
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 .headerLinks {
@@ -37,4 +44,155 @@ header {
 
 .ensoLogo {
     width: 200px;
+}
+
+.heroContent h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.heroContent p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.heroContent button {
+    background-color: #3882f6;
+    border: 0;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heroContent img {
+    width: 1000px;
+    height: 300px;
+    object-fit: cover;
+    flex: 1 1 auto;
+}
+
+.heroContent {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 50px;
+    align-items: ;
+    
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    align-items: start;
+    gap: 10px;
+    flex: auto;
+}
+
+.info {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.imageText {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    gap: 52px;
+}
+
+.eachOne {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1 1 auto;
+}
+
+.eachOne img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: solid 2px #3882f6;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    justify-content: center;
+    padding: 100px 25% 100px 25%;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 0px;
+    margin: 0px;
+}
+
+.quoteAuthor {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+    padding: 0px;
+    margin: 0px;
+}
+
+.CTA {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 700px;
+    margin: 5% auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+    gap: 20px;
+}
+
+.ctaText {
+   padding: 0px;
+   margin: 0px;
+}
+
+.ctaTitle, .ctaText p {
+    margin: 0px;
+}
+
+.ctaSubText {
+    padding-top: 2px;
+    color: rgba(255, 255, 255, 0.526);
+    font-size: 12px
+}
+
+.CTA button {
+    display: flex;
+    background-color: transparent;
+    border: solid white;
+    color: white;
+    cursor: pointer;
+    box-shadow: none;
+    border-radius: 5px;
+    padding: 5px 20px 5px 20px;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: 12px;
 }
